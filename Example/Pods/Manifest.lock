@@ -1,0 +1,23 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - lz_WebViewController (0.1.0):
+    - FDFullscreenPopGesture
+
+DEPENDENCIES:
+  - lz_WebViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FDFullscreenPopGesture
+
+EXTERNAL SOURCES:
+  lz_WebViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  lz_WebViewController: aba26331e13bd5e72157076180d724feb2c29296
+
+PODFILE CHECKSUM: 366f3e3291bd82b93cdd681369caa7d36e249b1c
+
+COCOAPODS: 1.5.0

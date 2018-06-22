@@ -1,0 +1,6 @@
+framework module Pods_lz_WebViewController_Tests {
+  umbrella header "Pods-lz_WebViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

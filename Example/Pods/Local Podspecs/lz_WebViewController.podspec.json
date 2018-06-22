@@ -1,0 +1,28 @@
+{
+  "name": "lz_WebViewController",
+  "version": "0.1.0",
+  "summary": "A web view controller support back/forward navigation gestures.",
+  "description": "A web view controller support back/forward navigation gestures.",
+  "homepage": "https://github.com/liyouleo911/lz_WebViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liyouleo911": "liyouleo911@msn.com"
+  },
+  "source": {
+    "git": "https://github.com/liyouleo911/lz_WebViewController.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/liyouleo911",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "lz_WebViewController/Classes/**/*",
+  "dependencies": {
+    "FDFullscreenPopGesture": [
+
+    ]
+  }
+}

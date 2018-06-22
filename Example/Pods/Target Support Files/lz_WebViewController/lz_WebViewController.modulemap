@@ -1,0 +1,6 @@
+framework module lz_WebViewController {
+  umbrella header "lz_WebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

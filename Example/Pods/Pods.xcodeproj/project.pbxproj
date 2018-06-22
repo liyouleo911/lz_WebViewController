@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183C1A662BF7D76976800B9FBBE89296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */; };
+		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571F6CF48DF5C761A9450A73D34F894 /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24C4CC96101AD9668F3507F00468EFA7 /* FDFullscreenPopGesture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4848899A24FF0C7F980BB0C3057094FD /* FDFullscreenPopGesture.framework */; };
+		35EE177272219877A16727E3CB68375D /* lz_NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757AD8400F375BD9D492C3B06A77DBEE /* lz_NavigationController.m */; };
+		53D8A4E7C1E8E2E0189D030AD058AF77 /* Pods-lz_WebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA8E982A93573069797F7035F82F19F /* Pods-lz_WebViewController_Example-dummy.m */; };
+		5FDD3701EE7FAEFB6D098391335AB93B /* lz_NavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADFB396CC015E5DD05EBD5D7435AD06 /* lz_NavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6215492DEBCA37196F48763477295C39 /* lz_WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 471EB242A284989AFB9DD13C17F14F68 /* lz_WebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6752D9A09C03B6C01EE6820B3D820671 /* lz_WebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B05F1482365EBA33CA6BA2D9CB003191 /* lz_WebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AC267ABECF7D64B7611B16A0FF0574B /* Pods-lz_WebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC421C39E69E4B3CB9989CE077EAAC /* Pods-lz_WebViewController_Tests-dummy.m */; };
+		7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */; };
+		75E318CEAADAE1D694F0FE747DFC6A63 /* Pods-lz_WebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 136587BAEC6CDC4333B9A3EA63C8F622 /* Pods-lz_WebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41AB89DD70F0B190F825575CE423C675 /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944B0E0318C5BFC3A8BB331D153DB457 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */; };
+		96B3AF7FCC6C68330DE0705054F60B7E /* lz_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5205E52A1C0A812D32BD8BD80DF7407 /* lz_WebViewController.m */; };
+		9C2FD911519E2B85B23A3DD33A4B6179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */; };
+		B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FB378D45457D2D56B82D25F4C9BE36 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		C6260010681527455E70EB7A791D43AB /* lz_WebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F21BF51668797FD30887015CE0AA7ED /* lz_WebViewController-dummy.m */; };
+		E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2986F97159DAB2DD2F9861E3B06E4DC /* FDFullscreenPopGesture-dummy.m */; };
+		F643BCE7E8E67CBF8169CC5B71886F4F /* Pods-lz_WebViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 580017E11A8D93DC49AFCC43215E6BB6 /* Pods-lz_WebViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A845D92CAB8F55C44F16D1524C3F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		398421F86EF7D05762719897B9D07A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBF89CEDDB285ED3767580B82FC4A996;
+			remoteInfo = lz_WebViewController;
+		};
+		B68C9B1555C753FCE64E50D70EB1958F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		E90D50DFF9153203C8081C249DA895A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574A9126BA41EE1D3996F71D183CA343;
+			remoteInfo = "Pods-lz_WebViewController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FC9D335056C5F5269EB5618256735C /* Pods-lz_WebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz_WebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		07A88A354B11C913B131A51E236CE1EF /* Pods-lz_WebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz_WebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		08FEE903C0DCCBF2E5B82451F57428BF /* Pods-lz_WebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lz_WebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AF8E9FCA94B99C20D88E4FB1B87C057 /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		0B89D34C84B89D3CF92AE22BD14B70B9 /* Pods-lz_WebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lz_WebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C48EBFEFD95B9EC47CC2A01BE6E58FC /* Pods-lz_WebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz_WebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		136587BAEC6CDC4333B9A3EA63C8F622 /* Pods-lz_WebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lz_WebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		1571F6CF48DF5C761A9450A73D34F894 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		1620C3567BECBDAB0A6468240196B426 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA8E982A93573069797F7035F82F19F /* Pods-lz_WebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lz_WebViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		2AA4D0C9F1499E5AAC182631A3E539B0 /* Pods-lz_WebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-lz_WebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F21BF51668797FD30887015CE0AA7ED /* lz_WebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lz_WebViewController-dummy.m"; sourceTree = "<group>"; };
+		2F63DED81FA5362C082B54109AAA639F /* Pods-lz_WebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lz_WebViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		41AB89DD70F0B190F825575CE423C675 /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		4330F8AEF78137FF2F369D352317CBE1 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		4352B6CD2CA0DBF5728C88EF93BAFA7D /* Pods_lz_WebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lz_WebViewController_Example.framework; path = "Pods-lz_WebViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E0A5FADD3C5BD141A9AA4BD6DBE038 /* Pods-lz_WebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lz_WebViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		471EB242A284989AFB9DD13C17F14F68 /* lz_WebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lz_WebViewController.h; path = lz_WebViewController/Classes/lz_WebViewController.h; sourceTree = "<group>"; };
+		4848899A24FF0C7F980BB0C3057094FD /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486525769730F08DA0CF8B7C98DDAA7D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4EF520CC5537DDE5B5860C5E468B9E86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4FDFA55E20F40862D27BF34D4EBEB9B9 /* Pods-lz_WebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lz_WebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		580017E11A8D93DC49AFCC43215E6BB6 /* Pods-lz_WebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-lz_WebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		66CC421C39E69E4B3CB9989CE077EAAC /* Pods-lz_WebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lz_WebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		6ADB8BE8CA039A623B0AA8669A5C85E2 /* Pods-lz_WebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz_WebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6ADFB396CC015E5DD05EBD5D7435AD06 /* lz_NavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lz_NavigationController.h; path = lz_WebViewController/Classes/lz_NavigationController.h; sourceTree = "<group>"; };
+		6AF61F1F1C295D636AA08F296CE04F27 /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		6D6CAD9670FB6DA8469806AA22376DC0 /* Pods_lz_WebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_lz_WebViewController_Tests.framework; path = "Pods-lz_WebViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7217DB3C094BBA7884FC03C52DCF3A16 /* lz_WebViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = lz_WebViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		757AD8400F375BD9D492C3B06A77DBEE /* lz_NavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = lz_NavigationController.m; path = lz_WebViewController/Classes/lz_NavigationController.m; sourceTree = "<group>"; };
+		75B5E9BD7B5D25A7C09C81A7741BD74E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C5E42121BADE4F333341FEEC92D8FC /* Pods-lz_WebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lz_WebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0223F3DF4C265FC75567A7FE7C012A1 /* Pods-lz_WebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-lz_WebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B05F1482365EBA33CA6BA2D9CB003191 /* lz_WebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz_WebViewController-umbrella.h"; sourceTree = "<group>"; };
+		B801116FAF7FA5F98F3BA84D23CC6755 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DF03C27800F96685F6A75F58F8F62F /* lz_WebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "lz_WebViewController-prefix.pch"; sourceTree = "<group>"; };
+		C45A171E09C160D140D5AC3F53783E8F /* lz_WebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = lz_WebViewController.framework; path = lz_WebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5205E52A1C0A812D32BD8BD80DF7407 /* lz_WebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = lz_WebViewController.m; path = lz_WebViewController/Classes/lz_WebViewController.m; sourceTree = "<group>"; };
+		C566AEEF97983A2A874DF28393DAED08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD15E5D4FB007983D6F68A2E5E0B0482 /* lz_WebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = lz_WebViewController.xcconfig; sourceTree = "<group>"; };
+		D1D31CB91671D6DC94C7DFA69045C5D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D376CBDABCC1014B00255C556F340C8B /* Pods-lz_WebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-lz_WebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		D7FB378D45457D2D56B82D25F4C9BE36 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		E2986F97159DAB2DD2F9861E3B06E4DC /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		E683D297EFEFEDF460FBF5A602F5B0E8 /* Pods-lz_WebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-lz_WebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4A2CD5963A66215137886675AE73AD9 /* lz_WebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = lz_WebViewController.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D44509C2F89056747D6E5A260E0D753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C4CC96101AD9668F3507F00468EFA7 /* FDFullscreenPopGesture.framework in Frameworks */,
+				9C2FD911519E2B85B23A3DD33A4B6179 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99B60300F2FA879679F34D767492482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B0E0318C5BFC3A8BB331D153DB457 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6459A28D4DE6FB793304DE0E57B23D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183C1A662BF7D76976800B9FBBE89296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A99931847CF033FA112447250A7C3C9 /* lz_WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6ADFB396CC015E5DD05EBD5D7435AD06 /* lz_NavigationController.h */,
+				757AD8400F375BD9D492C3B06A77DBEE /* lz_NavigationController.m */,
+				471EB242A284989AFB9DD13C17F14F68 /* lz_WebViewController.h */,
+				C5205E52A1C0A812D32BD8BD80DF7407 /* lz_WebViewController.m */,
+				871402BDA6501C59973057E78FA6A2B0 /* Pod */,
+				450EB0091188AFA40DDBBBA561CF4CC2 /* Support Files */,
+			);
+			name = lz_WebViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B96EF706152ABCBED9D4AE8D22A2C70 /* Pods-lz_WebViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C566AEEF97983A2A874DF28393DAED08 /* Info.plist */,
+				46E0A5FADD3C5BD141A9AA4BD6DBE038 /* Pods-lz_WebViewController_Tests.modulemap */,
+				0B89D34C84B89D3CF92AE22BD14B70B9 /* Pods-lz_WebViewController_Tests-acknowledgements.markdown */,
+				07A88A354B11C913B131A51E236CE1EF /* Pods-lz_WebViewController_Tests-acknowledgements.plist */,
+				66CC421C39E69E4B3CB9989CE077EAAC /* Pods-lz_WebViewController_Tests-dummy.m */,
+				91C5E42121BADE4F333341FEEC92D8FC /* Pods-lz_WebViewController_Tests-frameworks.sh */,
+				4FDFA55E20F40862D27BF34D4EBEB9B9 /* Pods-lz_WebViewController_Tests-resources.sh */,
+				580017E11A8D93DC49AFCC43215E6BB6 /* Pods-lz_WebViewController_Tests-umbrella.h */,
+				0C48EBFEFD95B9EC47CC2A01BE6E58FC /* Pods-lz_WebViewController_Tests.debug.xcconfig */,
+				02FC9D335056C5F5269EB5618256735C /* Pods-lz_WebViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-lz_WebViewController_Tests";
+			path = "Target Support Files/Pods-lz_WebViewController_Tests";
+			sourceTree = "<group>";
+		};
+		2BEE3D93D5B9D0BC9947DB91DF2D5F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88DD27075ADCE5F6AD9F7BABD4CD7279 /* FDFullscreenPopGesture */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		450EB0091188AFA40DDBBBA561CF4CC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D31CB91671D6DC94C7DFA69045C5D2 /* Info.plist */,
+				F4A2CD5963A66215137886675AE73AD9 /* lz_WebViewController.modulemap */,
+				CD15E5D4FB007983D6F68A2E5E0B0482 /* lz_WebViewController.xcconfig */,
+				2F21BF51668797FD30887015CE0AA7ED /* lz_WebViewController-dummy.m */,
+				C0DF03C27800F96685F6A75F58F8F62F /* lz_WebViewController-prefix.pch */,
+				B05F1482365EBA33CA6BA2D9CB003191 /* lz_WebViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/lz_WebViewController";
+			sourceTree = "<group>";
+		};
+		48911EF2C1E54E2E9BC4EBE277528046 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4882C5E3F9A736876EAA77692BA7675A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A0896155BECCDC08CBB93FD779F4338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4848899A24FF0C7F980BB0C3057094FD /* FDFullscreenPopGesture.framework */,
+				48911EF2C1E54E2E9BC4EBE277528046 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76007E955BDD58981BB4261A45575B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B801116FAF7FA5F98F3BA84D23CC6755 /* FDFullscreenPopGesture.framework */,
+				C45A171E09C160D140D5AC3F53783E8F /* lz_WebViewController.framework */,
+				4352B6CD2CA0DBF5728C88EF93BAFA7D /* Pods_lz_WebViewController_Example.framework */,
+				6D6CAD9670FB6DA8469806AA22376DC0 /* Pods_lz_WebViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D7BAF946747ED1CAB460A9FA9C56BE78 /* Development Pods */,
+				4A0896155BECCDC08CBB93FD779F4338 /* Frameworks */,
+				2BEE3D93D5B9D0BC9947DB91DF2D5F6E /* Pods */,
+				76007E955BDD58981BB4261A45575B1C /* Products */,
+				A7F3D2E9D4B99C8CD9626D3A4FB9CB7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		802847F2BDE590CC2301215240E685AB /* Pods-lz_WebViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1620C3567BECBDAB0A6468240196B426 /* Info.plist */,
+				D376CBDABCC1014B00255C556F340C8B /* Pods-lz_WebViewController_Example.modulemap */,
+				08FEE903C0DCCBF2E5B82451F57428BF /* Pods-lz_WebViewController_Example-acknowledgements.markdown */,
+				2AA4D0C9F1499E5AAC182631A3E539B0 /* Pods-lz_WebViewController_Example-acknowledgements.plist */,
+				1DA8E982A93573069797F7035F82F19F /* Pods-lz_WebViewController_Example-dummy.m */,
+				A0223F3DF4C265FC75567A7FE7C012A1 /* Pods-lz_WebViewController_Example-frameworks.sh */,
+				2F63DED81FA5362C082B54109AAA639F /* Pods-lz_WebViewController_Example-resources.sh */,
+				136587BAEC6CDC4333B9A3EA63C8F622 /* Pods-lz_WebViewController_Example-umbrella.h */,
+				6ADB8BE8CA039A623B0AA8669A5C85E2 /* Pods-lz_WebViewController_Example.debug.xcconfig */,
+				E683D297EFEFEDF460FBF5A602F5B0E8 /* Pods-lz_WebViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-lz_WebViewController_Example";
+			path = "Target Support Files/Pods-lz_WebViewController_Example";
+			sourceTree = "<group>";
+		};
+		871402BDA6501C59973057E78FA6A2B0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				486525769730F08DA0CF8B7C98DDAA7D /* LICENSE */,
+				7217DB3C094BBA7884FC03C52DCF3A16 /* lz_WebViewController.podspec */,
+				4EF520CC5537DDE5B5860C5E468B9E86 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88DD27075ADCE5F6AD9F7BABD4CD7279 /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				1571F6CF48DF5C761A9450A73D34F894 /* UINavigationController+FDFullscreenPopGesture.h */,
+				D7FB378D45457D2D56B82D25F4C9BE36 /* UINavigationController+FDFullscreenPopGesture.m */,
+				D053A6C1922B6AFE466FA7AABC0CD8E2 /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		A7F3D2E9D4B99C8CD9626D3A4FB9CB7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				802847F2BDE590CC2301215240E685AB /* Pods-lz_WebViewController_Example */,
+				2B96EF706152ABCBED9D4AE8D22A2C70 /* Pods-lz_WebViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D053A6C1922B6AFE466FA7AABC0CD8E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF61F1F1C295D636AA08F296CE04F27 /* FDFullscreenPopGesture.modulemap */,
+				4330F8AEF78137FF2F369D352317CBE1 /* FDFullscreenPopGesture.xcconfig */,
+				E2986F97159DAB2DD2F9861E3B06E4DC /* FDFullscreenPopGesture-dummy.m */,
+				0AF8E9FCA94B99C20D88E4FB1B87C057 /* FDFullscreenPopGesture-prefix.pch */,
+				41AB89DD70F0B190F825575CE423C675 /* FDFullscreenPopGesture-umbrella.h */,
+				75B5E9BD7B5D25A7C09C81A7741BD74E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		D7BAF946747ED1CAB460A9FA9C56BE78 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A99931847CF033FA112447250A7C3C9 /* lz_WebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA33A90CFEBA36A100EB8FD2BDD13A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E318CEAADAE1D694F0FE747DFC6A63 /* Pods-lz_WebViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7CB183F4AC55100E3DDAF56434EB8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F643BCE7E8E67CBF8169CC5B71886F4F /* Pods-lz_WebViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA46F6F41D803D415F921B60A96B785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD3701EE7FAEFB6D098391335AB93B /* lz_NavigationController.h in Headers */,
+				6752D9A09C03B6C01EE6820B3D820671 /* lz_WebViewController-umbrella.h in Headers */,
+				6215492DEBCA37196F48763477295C39 /* lz_WebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */,
+				DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */,
+				1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = B801116FAF7FA5F98F3BA84D23CC6755 /* FDFullscreenPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		574A9126BA41EE1D3996F71D183CA343 /* Pods-lz_WebViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED307647B06ADB646DAE878745B44FE /* Build configuration list for PBXNativeTarget "Pods-lz_WebViewController_Example" */;
+			buildPhases = (
+				17E845E43C52402325120EBA2F6B8B6C /* Sources */,
+				E99B60300F2FA879679F34D767492482 /* Frameworks */,
+				8FA33A90CFEBA36A100EB8FD2BDD13A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0249E1F88B31F6F981036D53899FFF /* PBXTargetDependency */,
+				25956398D0EC0624BD0F9619A12B0B82 /* PBXTargetDependency */,
+			);
+			name = "Pods-lz_WebViewController_Example";
+			productName = "Pods-lz_WebViewController_Example";
+			productReference = 4352B6CD2CA0DBF5728C88EF93BAFA7D /* Pods_lz_WebViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8717E9516CB1656D1F5D627BA357362B /* Pods-lz_WebViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86EEA043598DBCE33DBA009544F40EDF /* Build configuration list for PBXNativeTarget "Pods-lz_WebViewController_Tests" */;
+			buildPhases = (
+				548E075B13B8BD92065561148111443E /* Sources */,
+				EC6459A28D4DE6FB793304DE0E57B23D /* Frameworks */,
+				9C7CB183F4AC55100E3DDAF56434EB8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C264727E22BB478676144C0F8278A76A /* PBXTargetDependency */,
+			);
+			name = "Pods-lz_WebViewController_Tests";
+			productName = "Pods-lz_WebViewController_Tests";
+			productReference = 6D6CAD9670FB6DA8469806AA22376DC0 /* Pods_lz_WebViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBF89CEDDB285ED3767580B82FC4A996 /* lz_WebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8022809BE81FA9714FA2D0F172EA77D0 /* Build configuration list for PBXNativeTarget "lz_WebViewController" */;
+			buildPhases = (
+				7F0F39BC3A0963F563334198541D272B /* Sources */,
+				3D44509C2F89056747D6E5A260E0D753 /* Frameworks */,
+				FFA46F6F41D803D415F921B60A96B785 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A5A7F20C1946985B0D1D852A1223DB /* PBXTargetDependency */,
+			);
+			name = lz_WebViewController;
+			productName = lz_WebViewController;
+			productReference = C45A171E09C160D140D5AC3F53783E8F /* lz_WebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 76007E955BDD58981BB4261A45575B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */,
+				BBF89CEDDB285ED3767580B82FC4A996 /* lz_WebViewController */,
+				574A9126BA41EE1D3996F71D183CA343 /* Pods-lz_WebViewController_Example */,
+				8717E9516CB1656D1F5D627BA357362B /* Pods-lz_WebViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E845E43C52402325120EBA2F6B8B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D8A4E7C1E8E2E0189D030AD058AF77 /* Pods-lz_WebViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548E075B13B8BD92065561148111443E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC267ABECF7D64B7611B16A0FF0574B /* Pods-lz_WebViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0F39BC3A0963F563334198541D272B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EE177272219877A16727E3CB68375D /* lz_NavigationController.m in Sources */,
+				C6260010681527455E70EB7A791D43AB /* lz_WebViewController-dummy.m in Sources */,
+				96B3AF7FCC6C68330DE0705054F60B7E /* lz_WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDFEDD02529F13E67D2EDAED8E5DB4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D9851A41395BD8AA5E356D3E7B174E /* FDFullscreenPopGesture-dummy.m in Sources */,
+				B84F960E74AE7F8A67099072C643F17F /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A5A7F20C1946985B0D1D852A1223DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = B68C9B1555C753FCE64E50D70EB1958F /* PBXContainerItemProxy */;
+		};
+		25956398D0EC0624BD0F9619A12B0B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = lz_WebViewController;
+			target = BBF89CEDDB285ED3767580B82FC4A996 /* lz_WebViewController */;
+			targetProxy = 398421F86EF7D05762719897B9D07A3E /* PBXContainerItemProxy */;
+		};
+		BA0249E1F88B31F6F981036D53899FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = 21A845D92CAB8F55C44F16D1524C3F43 /* PBXContainerItemProxy */;
+		};
+		C264727E22BB478676144C0F8278A76A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-lz_WebViewController_Example";
+			target = 574A9126BA41EE1D3996F71D183CA343 /* Pods-lz_WebViewController_Example */;
+			targetProxy = E90D50DFF9153203C8081C249DA895A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		213F4C95DCC4F7EA3B587E7CA5414DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADB8BE8CA039A623B0AA8669A5C85E2 /* Pods-lz_WebViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lz_WebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lz_WebViewController_Example/Pods-lz_WebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324C6688DFCAD330777ADB81639238C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4330F8AEF78137FF2F369D352317CBE1 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F8498DD53B2E4C1907E32A5A4A82439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15E5D4FB007983D6F68A2E5E0B0482 /* lz_WebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lz_WebViewController/lz_WebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lz_WebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lz_WebViewController/lz_WebViewController.modulemap";
+				PRODUCT_MODULE_NAME = lz_WebViewController;
+				PRODUCT_NAME = lz_WebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		735AAFEAACB8D55D93B54E673B054608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15E5D4FB007983D6F68A2E5E0B0482 /* lz_WebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/lz_WebViewController/lz_WebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/lz_WebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/lz_WebViewController/lz_WebViewController.modulemap";
+				PRODUCT_MODULE_NAME = lz_WebViewController;
+				PRODUCT_NAME = lz_WebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CF6EC7D4F3AEE6049F30C453D42C1F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E683D297EFEFEDF460FBF5A602F5B0E8 /* Pods-lz_WebViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lz_WebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lz_WebViewController_Example/Pods-lz_WebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D172BF19D2DC129C9AA521B00A249996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4330F8AEF78137FF2F369D352317CBE1 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7A740A6E2298EBAFFA859AEE9F824B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FC9D335056C5F5269EB5618256735C /* Pods-lz_WebViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lz_WebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lz_WebViewController_Tests/Pods-lz_WebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD4413E7C73440A9B9ADF7C6923A0D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C48EBFEFD95B9EC47CC2A01BE6E58FC /* Pods-lz_WebViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-lz_WebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-lz_WebViewController_Tests/Pods-lz_WebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D172BF19D2DC129C9AA521B00A249996 /* Debug */,
+				324C6688DFCAD330777ADB81639238C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED307647B06ADB646DAE878745B44FE /* Build configuration list for PBXNativeTarget "Pods-lz_WebViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				213F4C95DCC4F7EA3B587E7CA5414DB8 /* Debug */,
+				CF6EC7D4F3AEE6049F30C453D42C1F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8022809BE81FA9714FA2D0F172EA77D0 /* Build configuration list for PBXNativeTarget "lz_WebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8498DD53B2E4C1907E32A5A4A82439 /* Debug */,
+				735AAFEAACB8D55D93B54E673B054608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86EEA043598DBCE33DBA009544F40EDF /* Build configuration list for PBXNativeTarget "Pods-lz_WebViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD4413E7C73440A9B9ADF7C6923A0D41 /* Debug */,
+				D7A740A6E2298EBAFFA859AEE9F824B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

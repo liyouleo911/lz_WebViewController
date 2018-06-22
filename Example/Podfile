@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'lz_WebViewController_Example' do
+  pod 'lz_WebViewController', :path => '../'
+
+  target 'lz_WebViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
